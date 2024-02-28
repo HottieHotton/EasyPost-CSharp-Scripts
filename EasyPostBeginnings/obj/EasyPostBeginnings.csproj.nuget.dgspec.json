@@ -1,0 +1,95 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/bhotton/Documents/EasyPostClientScripts/EasyPost CSharp Scripts/EasyPostBeginnings/EasyPostBeginnings.csproj": {}
+  },
+  "projects": {
+    "/Users/bhotton/Documents/EasyPostClientScripts/EasyPost CSharp Scripts/EasyPostBeginnings/EasyPostBeginnings.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/bhotton/Documents/EasyPostClientScripts/EasyPost CSharp Scripts/EasyPostBeginnings/EasyPostBeginnings.csproj",
+        "projectName": "EasyPostBeginnings",
+        "projectPath": "/Users/bhotton/Documents/EasyPostClientScripts/EasyPost CSharp Scripts/EasyPostBeginnings/EasyPostBeginnings.csproj",
+        "packagesPath": "/Users/bhotton/.nuget/packages/",
+        "outputPath": "/Users/bhotton/Documents/EasyPostClientScripts/EasyPost CSharp Scripts/EasyPostBeginnings/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/bhotton/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "EasyPost-Official": {
+              "target": "Package",
+              "version": "[6.2.0, )"
+            },
+            "Microsoft.Extensions.Configuration.EnvironmentVariables": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Logging.Configuration": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[110.2.0, )"
+            },
+            "System.IO": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.Net.Http": {
+              "target": "Package",
+              "version": "[4.3.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
